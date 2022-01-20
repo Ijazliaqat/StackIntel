@@ -1,0 +1,40 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20em;
+}
+.inner-container{
+    margin-top: 15%;
+    .justify-content-around{
+        margin-top: 17%;
+        margin-bottom: 10%;
+        
+    }
+    .justify-content-start{
+        margin-left: 18%;
+    }
+}
+
+.col-4{
+    margin-left: 30%;
+}
+
+button{
+    position: relative;
+    margin-left: 40%;
+    border-radius: 50px;
+    width: 20%;
+    height: 30px;
+    font-size: 15px;
+}
+
+@import './mobile';
+@import './tablet';
